@@ -74,8 +74,11 @@ sha256(username|password|timestamp|endpoint)
 ```
 
 `username` is the Snapchat™ username you are attempting to login with.
+
 `password` is the Snapchat™ password you are attempting to login with.
+
 `timestamp` is the same timestamp you are going to send in the `/loq/login` request.
+
 `endpoint` is at this stage always `/loq/login`
 
 #####timestamp
@@ -91,11 +94,13 @@ This is the package name of the Snapchat™ APK.
 #####apk_digest
 
 This is the sha256 digest (base64'd) of the Snapchat™ APK.
+
 Default is `JJShKOLH4YYjWZlJQ71A2dPTcmxbaMboyfo0nsKYayE=` which is for version `9.10.0.0`
 
 #####apk_certificate_digest
 
 This is the sha256 digest (base64'd) of the certificate used to sign the Snapchat™ APK.
+
 It should never change, and the default is `Lxyq/KHtMNC044hj7vq+oOgVcR+kz3m4IlGaglnZWlg=`
 
 #####droid_guard
@@ -105,11 +110,13 @@ This is the droidguard data, which you can find by sniffing a request when your 
 #####gms_version
 
 Google Play Services version used to make the request as.
+
 Default is `7329038`
 
 #####user_agent
 
 Android User Agent to make the request as.
+
 Default is `SafetyNet/7329000 (klte KOT49H); gzip`
 
 ####Responses
@@ -124,6 +131,7 @@ If your request was successful, you'll get a response with a code of 200 in the 
 ```
 
 Grab the signedAttestation value, and send it in the Snapchat™ login request as the `attestation` param.
+
 Any errors will be output like so:
 
 ```
