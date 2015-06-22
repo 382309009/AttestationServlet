@@ -1,7 +1,12 @@
 # AttestationServlet
+
 A Java Servlet for generating Attestations for Snapchat™ logins.
 
 This currently runs on a Tomcat7 server, and requires Java8.
+
+I couldn't get attestation requests to work in PHP with the dynamic protobuf.
+
+Since I already had it written in Java for [Casper](http://casper.io), thought I'd just rewrite it as a Servlet.
 
 ##Seting up your own Attestation Servlet:
 
