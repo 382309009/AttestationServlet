@@ -145,3 +145,6 @@ Any errors will be output like so:
     "message": "Error Message"
 }
 ```
+
+```
+The "Snapchat" name is copyright to Snapchat™, Inc. This project is in no way affiliated with, sponsored or endorsed by the Snapchat™, Inc. The project owner is not responsible for any legalities that may arise in the use of this project.
