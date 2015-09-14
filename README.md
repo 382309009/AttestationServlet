@@ -1,5 +1,7 @@
 # AttestationServlet
 
+**EDIT: 15/08/2015 The attestation values generated with this system are no longer valid, due to Google patching server side code. If you are looking to generte Attestations for Snapchat logins, I advise you to take a look at some of the other projects such as the [PHP Snapchat client](https://github.com/mgp25/SC-API), which use the Casper API that I have created.**
+
 A Java Servlet for generating Attestations for Snapchat™ logins.
 
 This currently runs on a Tomcat7 server, and requires Java8.
